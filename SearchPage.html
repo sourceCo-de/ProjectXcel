@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Search For Project</title>
+    <link rel="stylesheet" href="css/ProjectXcel.css" type="text/css">
+</head>
+<body>
+    <div>
+
+        <div class="header">
+            <ul>
+                <a href="Homepage.html"> <li>HOME</li> </a>
+            </ul>
+
+
+            <!--Profile Section-->
+            <div class="profile-section">
+                <div class="profile-picture">
+                    <img src="images/bg/software-developer.png" alt="User Profile Picture">
+                </div>
+                <div class="profile-name">Profile</div>
+             </div>
+
+
+        </div>
+
+        <div class="searchpage-intro">
+
+            <div>
+                <!--Search box-->
+                <h3> Search for Project by title, description or keyword </h3>
+
+                <div class="search-box">
+                <input type="search" id="search" name="search" placeholder="Search for project...">
+                </div>
+                
+                <a href="SearchResults.html">
+                    <button class="search-button"> SEARCH </button>
+                </a>
+
+            </div>
+
+            <!--Checkboxes-->
+
+            <!--Project Title-->
+
+            <div class="checkbox-container">
+
+                <label> 
+                    <input type="checkbox" name="Project Title" value="Project Title">
+                    Project Title
+                </label>
+
+            <!--Description-->
+
+                <label> 
+                    <input type="checkbox" name="Description" value="Description">
+                    Description
+                </label>
+
+            <!--Keyword-->
+
+                <label> 
+                    <input type="checkbox" name="Keyword" value="Keyword">
+                    Keyword
+                </label>
+
+            </div>
+
+            <!--Vertical bar-->
+
+            <div class="hr-ruler"></div>
+        </div>
+
+    </div>
+
+    <script type="module" src="./js/ProjectXcel.js"></script>
+    
+</body>
+</html>
